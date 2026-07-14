@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>13c</title>
+        <style>
+            .image{
+                width:50px;
+                height:50px;
+                object-fit:cover;
+                border-radius:25px;
+            }
+
+            .main-div{
+                box-shadow:0px 0px 10px rgb(173, 172, 172);
+                padding-left:10px;
+                padding-top:2px;
+            }
+
+            .p1{
+                margin-top:0px;
+                margin-bottom:0px;
+                font-size:16px;
+                font-weight:bolder
+            }
+
+            .p2{
+                margin-top:0px;
+                margin-bottom:2px;
+                font-size:15px;
+                font-weight:bold;
+            }
+
+            .p3{
+                margin-top:0px;
+                font-size:14px;
+                color:gray;
+            }
+
+            .time{
+                font-size:14px;
+                margin-top:0px;
+                color:gray;
+            }
+
+            .inbox{
+                color:gray;
+                font-size:15px;
+            }
+
+            .main-div{
+                width:400px;
+            }
+
+        </style>
+
+    </head>
+
+    <body style="font-family:arial;">
+        <div class="main-div">
+            <div style="display:flex;
+            flex-direction:column;">
+                <p class="inbox">ALL INBOXES</p>
+            </div>
+
+            <div style="display:flex;
+                flex-direction:row;
+                ">
+                
+                <img class="image" src="image.jpg">
+
+                <div style="display:flex;
+                    flex-direction:column;
+                    padding-left:10px;
+                    ">
+
+                    <div style="display:flex;
+                        flex-direction:row;
+                        justify-content:space-between;
+                        ">
+                        <p class="p1">Chewy Promotions</p>
+                        <p class="time">4:58PM</p>
+                    </div>
+                    <p class="p2">Biggest sales of the year!</p>
+                    <p class="p3">Hey there! We're writing to tell you about our...</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

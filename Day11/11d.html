@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>facebook grid</title>
+        <style>
+            
+
+           .thumbnail{
+                width:200px;
+                height:200px;
+                object-fit:cover;
+                margin-bottom:12px;
+            }
+           
+           .name{
+            margin-top:0px;
+            font-family:arial;
+            margin-bottom:0px;
+           }
+
+            .mutual{
+            display:grid;
+            grid-template-columns:35px 1fr;
+            color:gray;
+            align-items:center;
+            font-weight:500;
+            margin-left:8px;
+            margin-bottom:10px;
+            }
+
+            .add{
+                height:25px;
+                margin-right:20px;
+                background-color:rgb(75, 75, 250);
+                color:white;
+                border:none;
+                border-radius:5px;
+                margin-top:10px;
+                font-size:12px;
+            }
+
+            .pp{
+                width:28px;
+                height:28px;
+                object-fit:cover;
+                margin-right:4px;
+                vertical-align:middle;
+                border-radius:14px;
+            }
+
+            .grid{
+                display:grid;
+                grid-template-columns: 200px 200px 200px;
+                column-gap:20px;
+            }
+
+            .profile{
+                width:200px;
+                box-shadow: 0 0 5px rgba(0,0,0,0.3);
+                vertical-align:center;
+                margin-right:15px;
+            }
+
+        </style>
+    </head>  
+    <body>
+        <div class="grid">
+                <div class="profile">
+                    <img class="thumbnail" src="photo1.jpeg">
+                     <p class="name">Oliver</p>
+                
+
+                    <div class="mutual">
+                        <img class="pp" src="photo3.jpg">
+                        <p class="mutual">2 mutual friends</p>
+                    </div>
+                        
+                     <button class="add">Add Friend</button>
+                </div>   
+
+
+                <div class="profile">
+                    <img class="thumbnail" src="photo2.jpeg">
+                    <p class="name">Mimi</p>
+
+                    <div class="mutual">
+                        <img class="pp" src="photo3.jpg">
+                        <p class="mutual">3 mutual friends</p>
+                    </div>
+
+                    <button class="add">Add Friend</button>
+                </div>
+
+                <div class="profile">
+                    <img class="thumbnail" src="photo3.jpg">
+                    <p class="name">Rex</p>
+
+                    <div class="mutual"></div>
+                        <img class="pp" src="photo1.jpeg">
+                        <p class="mutual">4 mutual friends</p>
+                    </div>
+
+                    <button class="add">Add Friend</button>
+                </div>
+        </div>
+    </body>
+</html>

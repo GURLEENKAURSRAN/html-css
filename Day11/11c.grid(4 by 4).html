@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid with 2 columns</title>
+        <style>
+        .grid{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap:20px;
+            row-gap:10px;
+
+        }
+
+        .col{
+            background-color:lightpink;
+        }
+
+        
+        </style>
+    </head>
+    <body>
+        <div class="grid">
+            <p class="col">col1</p>
+            <p class="col">col2</p>
+            <p class="col">col3</p>
+            <p class="col">col4</p>
+            <p class="col">col1</p>
+            <p class="col">col2</p>
+            <p class="col">col3</p>
+            <p class="col">col4</p>
+        </div>
+    </body>
+</html>

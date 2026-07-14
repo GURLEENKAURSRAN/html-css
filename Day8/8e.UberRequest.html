@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Text Boxes</title>
+        <style>
+            .location,.destination{
+                display:block;
+            }
+
+            .request{
+                margin-bottom:0px;
+                font-family:arial;
+                font-size:30px;
+            }
+
+            .location{
+                margin-top:12px;
+                border:none;
+                background-color:rgb(241, 240, 240);
+                height:30px;
+                width:250px;
+            }
+
+            .destination{
+                margin-top:5px;
+                background-color:rgb(241, 240, 240);
+                height:30px;
+                width:250px;
+                border:none;
+            }
+
+            .now{
+                margin-top:15px;
+                border:none;
+                background-color:black;
+                color:white;
+                height:30px;
+                margin-right:10px;
+            }
+
+            .later{
+                border:none;
+                height:30px;
+                background-color:rgb(241, 240, 240);
+            }
+        </style>
+    </head>
+    <body>
+        <p class="request">Request a ride now</p>
+        <input class="location" type="text" placeholder="Enter pickup location">
+        <input class="destination" type="text" placeholder="Enter destination">
+        <button class="now">Request now</button>
+        <button class="later">Schedule for later</button>
+    </body>
+</html>

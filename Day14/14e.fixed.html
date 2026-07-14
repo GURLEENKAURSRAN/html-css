@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Use of fixed</title>
+
+        <style>
+            .image{
+                width:40px;
+                height:40px;
+                object-fit:cover;
+                border-radius:25px;
+            }
+
+            .div{
+                position:fixed;
+                top:0;
+                left:0;
+                right:0;
+                display:flex;
+                justify-content:space-between;
+                padding-top:5px;
+                padding-bottom:5px;
+                padding-left:70px;
+                padding-right:70px;
+                font-family:arial;
+            }
+
+            .div1{
+                display:flex;
+                align-items:center
+            }
+
+            .div2{
+                display:flex;
+                align-items:center;
+            }
+
+            p{
+                margin-left:10px;
+                font-weight:bold;
+            }
+
+            button{
+                margin-left:10px;
+                height:30px;
+                border-radius:5px;
+                font-weight:bold;
+            }
+
+            .b1{
+                background-color:rgba(0, 0, 255, 0.836);
+                color:white;
+                border:none;
+            }
+
+            .b2{
+                border:none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="div">
+            <div class="div1">
+                <img class="image" src="image.jpg">
+                <p>Oliver Cat</p>
+            </div>
+
+            <div class="div2">
+                <button class="b1">Add Friend</button>
+                <button class="b2">Message</button>
+            </div>
+            
+        </div>
+    </body>
+</html>

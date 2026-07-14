@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sidebar Practice</title>
+        <style>
+            .img{
+                display:flex;
+                height:40px;
+                width:40px;
+                object-fit:cover;
+                border-radius:20px;
+                margin-bottom:10px;
+            }
+
+            .sidebar1{
+                background-color:rgb(94, 93, 93);
+                position:fixed;
+                top:0;
+                bottom:0;
+                left:0;
+                padding-left:5px;
+                padding-right:5px;
+                padding-top:5px;
+                width:43px;
+            }
+
+            .sidebar2{
+                background-color:rgb(102, 102, 102);
+                position:fixed;
+                left:43px;
+                top:0;
+                bottom:0;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="div">
+            <div class="sidebar1">
+                <img class="img" src="image.jpg">
+                <img class="img" src="channel-6.jpeg">
+                <img class="img" src="images.jpeg">
+            </div>
+
+            <div class="sidebar2">
+                <p>INFO</p>
+                <p># new-videos</p>
+                <p># updates</p>
+                <p># faq</p>
+            </div>
+        </div>
+    </body>
+</html>
